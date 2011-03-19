@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4142324F1334FACE008871BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4142324E1334FACE008871BE /* UIKit.framework */; };
+		414232511334FACE008871BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414232501334FACE008871BE /* Foundation.framework */; };
+		414232531334FACE008871BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414232521334FACE008871BE /* CoreGraphics.framework */; };
+		414232591334FACE008871BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 414232571334FACE008871BE /* InfoPlist.strings */; };
+		4142325C1334FACE008871BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4142325B1334FACE008871BE /* main.m */; };
+		4142325F1334FACE008871BE /* ConnectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4142325E1334FACE008871BE /* ConnectAppDelegate.m */; };
+		414232621334FACE008871BE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414232601334FACE008871BE /* MainWindow.xib */; };
+		414232651334FACE008871BE /* ConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 414232641334FACE008871BE /* ConnectViewController.m */; };
+		414232681334FACE008871BE /* ConnectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 414232661334FACE008871BE /* ConnectViewController.xib */; };
+		4142326F1334FACE008871BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4142324E1334FACE008871BE /* UIKit.framework */; };
+		414232701334FACE008871BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414232501334FACE008871BE /* Foundation.framework */; };
+		414232711334FACE008871BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414232521334FACE008871BE /* CoreGraphics.framework */; };
+		414232791334FACE008871BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 414232771334FACE008871BE /* InfoPlist.strings */; };
+		4142327C1334FACE008871BE /* ConnectTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4142327B1334FACE008871BE /* ConnectTests.h */; };
+		4142327E1334FACE008871BE /* ConnectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4142327D1334FACE008871BE /* ConnectTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		414232721334FACE008871BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 414232411334FACD008871BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 414232491334FACE008871BE;
+			remoteInfo = Connect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4142324A1334FACE008871BE /* Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Connect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4142324E1334FACE008871BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		414232501334FACE008871BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		414232521334FACE008871BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		414232561334FACE008871BE /* Connect-Info.plist */ = {isa = PBXFileReference; path = "Connect-Info.plist"; sourceTree = "<group>"; };
+		414232581334FACE008871BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4142325A1334FACE008871BE /* Connect-Prefix.pch */ = {isa = PBXFileReference; path = "Connect-Prefix.pch"; sourceTree = "<group>"; };
+		4142325B1334FACE008871BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4142325D1334FACE008871BE /* ConnectAppDelegate.h */ = {isa = PBXFileReference; path = ConnectAppDelegate.h; sourceTree = "<group>"; };
+		4142325E1334FACE008871BE /* ConnectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectAppDelegate.m; sourceTree = "<group>"; };
+		414232611334FACE008871BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		414232631334FACE008871BE /* ConnectViewController.h */ = {isa = PBXFileReference; path = ConnectViewController.h; sourceTree = "<group>"; };
+		414232641334FACE008871BE /* ConnectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectViewController.m; sourceTree = "<group>"; };
+		414232671334FACE008871BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ConnectViewController.xib; sourceTree = "<group>"; };
+		4142326E1334FACE008871BE /* ConnectTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		414232761334FACE008871BE /* ConnectTests-Info.plist */ = {isa = PBXFileReference; path = "ConnectTests-Info.plist"; sourceTree = "<group>"; };
+		414232781334FACE008871BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4142327A1334FACE008871BE /* ConnectTests-Prefix.pch */ = {isa = PBXFileReference; path = "ConnectTests-Prefix.pch"; sourceTree = "<group>"; };
+		4142327B1334FACE008871BE /* ConnectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectTests.h; sourceTree = "<group>"; };
+		4142327D1334FACE008871BE /* ConnectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		414232471334FACE008871BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4142324F1334FACE008871BE /* UIKit.framework in Frameworks */,
+				414232511334FACE008871BE /* Foundation.framework in Frameworks */,
+				414232531334FACE008871BE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4142326A1334FACE008871BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4142326F1334FACE008871BE /* UIKit.framework in Frameworks */,
+				414232701334FACE008871BE /* Foundation.framework in Frameworks */,
+				414232711334FACE008871BE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4142323F1334FACD008871BE = {
+			isa = PBXGroup;
+			children = (
+				414232541334FACE008871BE /* Connect */,
+				414232741334FACE008871BE /* ConnectTests */,
+				4142324D1334FACE008871BE /* Frameworks */,
+				4142324B1334FACE008871BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4142324B1334FACE008871BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4142324A1334FACE008871BE /* Connect.app */,
+				4142326E1334FACE008871BE /* ConnectTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4142324D1334FACE008871BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4142324E1334FACE008871BE /* UIKit.framework */,
+				414232501334FACE008871BE /* Foundation.framework */,
+				414232521334FACE008871BE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		414232541334FACE008871BE /* Connect */ = {
+			isa = PBXGroup;
+			children = (
+				4142325D1334FACE008871BE /* ConnectAppDelegate.h */,
+				4142325E1334FACE008871BE /* ConnectAppDelegate.m */,
+				414232601334FACE008871BE /* MainWindow.xib */,
+				414232631334FACE008871BE /* ConnectViewController.h */,
+				414232641334FACE008871BE /* ConnectViewController.m */,
+				414232661334FACE008871BE /* ConnectViewController.xib */,
+				414232551334FACE008871BE /* Supporting Files */,
+			);
+			path = Connect;
+			sourceTree = "<group>";
+		};
+		414232551334FACE008871BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				414232561334FACE008871BE /* Connect-Info.plist */,
+				414232571334FACE008871BE /* InfoPlist.strings */,
+				4142325A1334FACE008871BE /* Connect-Prefix.pch */,
+				4142325B1334FACE008871BE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		414232741334FACE008871BE /* ConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				4142327B1334FACE008871BE /* ConnectTests.h */,
+				4142327D1334FACE008871BE /* ConnectTests.m */,
+				414232751334FACE008871BE /* Supporting Files */,
+			);
+			path = ConnectTests;
+			sourceTree = "<group>";
+		};
+		414232751334FACE008871BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				414232761334FACE008871BE /* ConnectTests-Info.plist */,
+				414232771334FACE008871BE /* InfoPlist.strings */,
+				4142327A1334FACE008871BE /* ConnectTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		414232491334FACE008871BE /* Connect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 414232811334FACE008871BE /* Build configuration list for PBXNativeTarget "Connect" */;
+			buildPhases = (
+				414232461334FACE008871BE /* Sources */,
+				414232471334FACE008871BE /* Frameworks */,
+				414232481334FACE008871BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Connect;
+			productName = Connect;
+			productReference = 4142324A1334FACE008871BE /* Connect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4142326D1334FACE008871BE /* ConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 414232841334FACE008871BE /* Build configuration list for PBXNativeTarget "ConnectTests" */;
+			buildPhases = (
+				414232691334FACE008871BE /* Sources */,
+				4142326A1334FACE008871BE /* Frameworks */,
+				4142326B1334FACE008871BE /* Resources */,
+				4142326C1334FACE008871BE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				414232731334FACE008871BE /* PBXTargetDependency */,
+			);
+			name = ConnectTests;
+			productName = ConnectTests;
+			productReference = 4142326E1334FACE008871BE /* ConnectTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		414232411334FACD008871BE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 414232441334FACD008871BE /* Build configuration list for PBXProject "Connect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4142323F1334FACD008871BE;
+			productRefGroup = 4142324B1334FACE008871BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				414232491334FACE008871BE /* Connect */,
+				4142326D1334FACE008871BE /* ConnectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		414232481334FACE008871BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414232591334FACE008871BE /* InfoPlist.strings in Resources */,
+				414232621334FACE008871BE /* MainWindow.xib in Resources */,
+				414232681334FACE008871BE /* ConnectViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4142326B1334FACE008871BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414232791334FACE008871BE /* InfoPlist.strings in Resources */,
+				4142327C1334FACE008871BE /* ConnectTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4142326C1334FACE008871BE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		414232461334FACE008871BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4142325C1334FACE008871BE /* main.m in Sources */,
+				4142325F1334FACE008871BE /* ConnectAppDelegate.m in Sources */,
+				414232651334FACE008871BE /* ConnectViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		414232691334FACE008871BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4142327E1334FACE008871BE /* ConnectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		414232731334FACE008871BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 414232491334FACE008871BE /* Connect */;
+			targetProxy = 414232721334FACE008871BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		414232571334FACE008871BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				414232581334FACE008871BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		414232601334FACE008871BE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				414232611334FACE008871BE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		414232661334FACE008871BE /* ConnectViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				414232671334FACE008871BE /* en */,
+			);
+			name = ConnectViewController.xib;
+			sourceTree = "<group>";
+		};
+		414232771334FACE008871BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				414232781334FACE008871BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4142327F1334FACE008871BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		414232801334FACE008871BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		414232821334FACE008871BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Connect/Connect-Prefix.pch";
+				INFOPLIST_FILE = "Connect/Connect-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		414232831334FACE008871BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Connect/Connect-Prefix.pch";
+				INFOPLIST_FILE = "Connect/Connect-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		414232851334FACE008871BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Connect.app/Connect";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConnectTests/ConnectTests-Prefix.pch";
+				INFOPLIST_FILE = "ConnectTests/ConnectTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		414232861334FACE008871BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Connect.app/Connect";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConnectTests/ConnectTests-Prefix.pch";
+				INFOPLIST_FILE = "ConnectTests/ConnectTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		414232441334FACD008871BE /* Build configuration list for PBXProject "Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4142327F1334FACE008871BE /* Debug */,
+				414232801334FACE008871BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		414232811334FACE008871BE /* Build configuration list for PBXNativeTarget "Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				414232821334FACE008871BE /* Debug */,
+				414232831334FACE008871BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		414232841334FACE008871BE /* Build configuration list for PBXNativeTarget "ConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				414232851334FACE008871BE /* Debug */,
+				414232861334FACE008871BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 414232411334FACD008871BE /* Project object */;
+}
