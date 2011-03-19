@@ -39,20 +39,20 @@
 		4142324E1334FACE008871BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		414232501334FACE008871BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		414232521334FACE008871BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		414232561334FACE008871BE /* Connect-Info.plist */ = {isa = PBXFileReference; path = "Connect-Info.plist"; sourceTree = "<group>"; };
+		414232561334FACE008871BE /* Connect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Connect-Info.plist"; sourceTree = "<group>"; };
 		414232581334FACE008871BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4142325A1334FACE008871BE /* Connect-Prefix.pch */ = {isa = PBXFileReference; path = "Connect-Prefix.pch"; sourceTree = "<group>"; };
+		4142325A1334FACE008871BE /* Connect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Connect-Prefix.pch"; sourceTree = "<group>"; };
 		4142325B1334FACE008871BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4142325D1334FACE008871BE /* ConnectAppDelegate.h */ = {isa = PBXFileReference; path = ConnectAppDelegate.h; sourceTree = "<group>"; };
+		4142325D1334FACE008871BE /* ConnectAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectAppDelegate.h; sourceTree = "<group>"; };
 		4142325E1334FACE008871BE /* ConnectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectAppDelegate.m; sourceTree = "<group>"; };
 		414232611334FACE008871BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		414232631334FACE008871BE /* ConnectViewController.h */ = {isa = PBXFileReference; path = ConnectViewController.h; sourceTree = "<group>"; };
+		414232631334FACE008871BE /* ConnectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectViewController.h; sourceTree = "<group>"; };
 		414232641334FACE008871BE /* ConnectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectViewController.m; sourceTree = "<group>"; };
 		414232671334FACE008871BE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ConnectViewController.xib; sourceTree = "<group>"; };
 		4142326E1334FACE008871BE /* ConnectTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		414232761334FACE008871BE /* ConnectTests-Info.plist */ = {isa = PBXFileReference; path = "ConnectTests-Info.plist"; sourceTree = "<group>"; };
+		414232761334FACE008871BE /* ConnectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConnectTests-Info.plist"; sourceTree = "<group>"; };
 		414232781334FACE008871BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4142327A1334FACE008871BE /* ConnectTests-Prefix.pch */ = {isa = PBXFileReference; path = "ConnectTests-Prefix.pch"; sourceTree = "<group>"; };
+		4142327A1334FACE008871BE /* ConnectTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConnectTests-Prefix.pch"; sourceTree = "<group>"; };
 		4142327B1334FACE008871BE /* ConnectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectTests.h; sourceTree = "<group>"; };
 		4142327D1334FACE008871BE /* ConnectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
